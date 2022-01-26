@@ -2,6 +2,6 @@ FROM python
 
 WORKDIR /app
 
-COPY rng_no_input.py /app
+COPY rng.py /app
 
-CMD ["python", "rng_no_input.py"]
+CMD ["python", "rng.py"]
